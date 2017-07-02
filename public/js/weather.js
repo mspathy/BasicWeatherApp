@@ -1,6 +1,5 @@
 
 window.onload = function getWeather() {
-  //var apiURI = "http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&appid=06170c100199dbae1e223cc3dfad960b";
   var apiURI = "http://api.openweathermap.org/data/2.5/forecast?q=Chennai,India&appid=06170c100199dbae1e223cc3dfad960b";
   var tempMode = 1;
   var dayLimit = 5;
@@ -63,7 +62,7 @@ window.onload = function getWeather() {
 					}
 					$("#temp-textdate"+j).html((tempMode === 1 ? fahr[j].toFixed(0) + " F&deg" : cels[j].toFixed(0) + " C&deg"));
 					
-                                        $("#prediction"+j).html(dayTempObj.weather[0].main);
+                                        $("#prediction"+j).html(dayTempObj.main.humidity);
 					$("#temp-textday"+j).html(day+"/"+month+"/"+year);
 					j++;
 				}
