@@ -1,17 +1,34 @@
-Weather Forecast App
+# Weather Forecast App
+This application uses Open Weather API to list down the temprature & humidity details of Chennai City.
+It has a very simple user interface. It uses Viewport which makes this simple page resposive.
+It provides an option to view the temprature both in Celcius & Fahrenheit format.
 
-This application uses Open Weather API to find the weather forecast of Chenna City.
 
-How to run this application
-
+## How to run this application
 To run this application once the package is downloaded follow steps below -
 
-Navigate to project folder and run below command in command line to install the dependencies
+1. Navigate to project folder and run below command in command line to install the dependencies
+    ```bash
+    npm install
+    ```
+2. Once above process is complete, in terminal window run below command to start the server.  
+    ```bash
+    node server
+    ```
+3. Open the web browser and navigate to URL [http://localhost:3000/](http://localhost:3000/)
 
-npm install
+## Hosting
+Application is hosted at [http://weatherbasicapp.herokuapp.com/](http://weatherbasicapp.herokuapp.com/)
 
-Once above process is complete, in terminal window run below command to start the server.
+## Technical Details
+1. This application is developed using jQuery and Bootstrap.
+2. Express.js is used along with node host and run the application.,
 
-node weatherapp
 
-Open the web browser and navigate to URL http://localhost:3000/Weather
+## Future Enhancements
+This is a simple webapp, This can be made as a Hybrid Application
+Proper error handlig with the proper alert/error messages
+UI Ehancemet : Rich & Appealing UI
+Add geo location API support to get the weather information of current city/place.
+Multi-Language support
+Pass city/place name as a query string so that this application can be integrated with other system.
