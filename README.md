@@ -26,9 +26,9 @@ Application is hosted at [http://weatherbasicapp.herokuapp.com/](http://weatherb
 
 
 ## Future Enhancements
-This is a simple webapp, This can be made as a Hybrid Application
-Proper error handlig with the proper alert/error messages
-UI Ehancemet : Rich & Appealing UI
-Add geo location API support to get the weather information of current city/place.
-Multi-Language support
-Pass city/place name as a query string so that this application can be integrated with other system.
+1.This is a simple webapp, This can be made as a Hybrid Application
+2.Proper error handlig with the proper alert/error messages
+3.UI Ehancemet : Rich & Appealing UI
+4.Add geo location API support to get the weather information of current city/place.
+5.Multi-Language support
+6.Pass city/place name as a query string so that this application can be integrated with other system.
