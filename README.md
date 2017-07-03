@@ -13,7 +13,7 @@ To run this application once the package is downloaded follow steps below -
     ```
 2. Once above process is complete, in terminal window run below command to start the server.  
     ```bash
-    node server
+    node weatherapp
     ```
 3. Open the web browser and navigate to URL [http://localhost:3000/](http://localhost:3000/)
 
