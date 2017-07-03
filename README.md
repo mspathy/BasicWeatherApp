@@ -26,9 +26,10 @@ Application is hosted at [http://weatherbasicapp.herokuapp.com/](http://weatherb
 
 
 ## Future Enhancements
-1. This is a simple webapp, This can be made as a Hybrid Application
-2. Proper error handlig with the proper alert/error messages
-3. UI Ehancemet : Rich & Appealing UI
-4. Add geo location API support to get the weather information of current city/place.
-5. Multi-Language support
-6. Pass city/place name as a query string so that this application can be integrated with other system.
+1. This application fetches the data for Chennai City. This can be enhanced further to take the preferred city from the user and fetch the data for the mentioned city.
+2. This is a simple webapp, This can be made as a Hybrid Application.
+3. Proper error handlig with the proper alert/error messages.
+4. UI Ehancemet : Rich & Appealing UI.
+5. Add geo location API support to get the weather information of current city/place.
+6. Multi-Language support.
+7. Pass city/place name as a query string so that this application can be integrated with other system.
